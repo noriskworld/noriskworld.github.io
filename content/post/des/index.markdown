@@ -144,7 +144,7 @@ simu_resources <- simmer_relia(500, mon = "resources")
 plot(simu_resources, metric = "usage", "repairman", items = "server", steps = TRUE)
 ```
 
-<img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+<img src="index.en_files/figure-html/unnamed-chunk-6-1.png" width="672" />
 
 # Monitoring: resources vs attributes
 
