@@ -15,7 +15,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director, Design Assurance & Reliability 
+role: Risk Analysis & Reliability Engineering
 
 # Organizations/Affiliations to show in About widget
 

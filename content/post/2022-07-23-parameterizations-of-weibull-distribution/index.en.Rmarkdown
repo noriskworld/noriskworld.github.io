@@ -36,7 +36,6 @@ The reliability function is thus $$ R \left( t \right) = e^ {- \left( \frac{t}{\
 
 
 
-
 It is easy to see:
 
 * when $\beta = 1$, the h(t) is a flat line, a constant;
