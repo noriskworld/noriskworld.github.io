@@ -1,7 +1,7 @@
 ---
 title: "Monte Carlo Visulization"
 author: YUNWEI HU
-date: ‘2023-12-02’
+date: '2023-12-03'
 tags:
 - Visualization
 ---
@@ -28,7 +28,7 @@ precision of our output for clarity and consistency.
 In this example, we use a statistical tolerance analysis of the voltage
 divider as an example.
 
-![Voltage Divider](~/Downloads/vdiv.svg) The voltage division ratio
+![Voltage Divider](mc_anim_files/vdiv.png) The voltage division ratio
 $G = \frac{R1}{R1 + R2}$, where *R*<sub>1</sub> and *R*<sub>2</sub> are
 independent variables following normal distributions. Our goal is to
 simulate this process a million times and visualize the distribution of
