@@ -1,7 +1,7 @@
 ---
 title: "Simulation for Weibull Analysis"
 author: Yunwei Hu
-date: "2023-12-05"
+date: '2023-12-05'
 ---
 
 ```{r setup, include=FALSE}
