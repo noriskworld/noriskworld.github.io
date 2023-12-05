@@ -84,8 +84,8 @@ prevent printing of the R code that generated the plot.
 We fit the Weibull distribution with the simulated data using the
 `Survival` package.
 
-> survreg’s scale parameter = 1/(rweibull shape parameter) survreg’s
-> intercept = log(rweibull scale parameter)
+> survreg’s scale parameter = 1/(rweibull shape parameter)    
+> Survreg’s intercept = log(rweibull scale parameter)
 
     library(survival)
 
