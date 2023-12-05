@@ -6,33 +6,26 @@ date: '2023-12-05'
 
 ## Problem statement
 
-    library(tidyverse)
-
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.4     ✔ readr     2.1.4
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.1
-    ## ✔ ggplot2   3.4.4     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.2     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-    library(stringr)
-
 The script below is trying to generate warranty return data for a
 product that follows a Weibull time-to-failure distribution.
 
-We further assume that: - `shipment per day` is constant, and there is
-no delay in deploy in the field. - return data is immediate and
-accurate - A serial number will be genreated for each shipped product.
+We further assume that:  
+- `shipment per day` is constant, and there is
+no delay in deploy in the field.  
+- return data is immediate and accurate  
+- A serial number will be genreated for each shipped product.
 
-The function will take the following input: - Weibull parameters, eta
-and beta - ship\_date\_start, ship\_date\_end - report\_stop\_date
-(either end of warranty, or end of analysis period) - shipment per day
+The function will take the following input:  
+- Weibull parameters, eta and beta - ship\_date\_start, ship\_date\_end  
+- report\_stop\_date
+(either end of warranty, or end of analysis period) - shipment per day  
 
 All dates will be in `ymd` format
+
+
+
+    library(tidyverse)
+    library(stringr)
 
     return_gen <- function(eta, 
                            beta, 
