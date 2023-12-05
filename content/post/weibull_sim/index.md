@@ -16,9 +16,10 @@ no delay in deploy in the field.
 - A serial number will be genreated for each shipped product.
 
 The function will take the following input:  
-- Weibull parameters, eta and beta - ship\_date\_start, ship\_date\_end  
-- report\_stop\_date
-(either end of warranty, or end of analysis period) - shipment per day  
+- Weibull parameters, eta and beta   
+- ship\_date\_start, ship\_date\_end   
+- report\_stop\_date (either end of warranty, or end of analysis period)  
+- shipment per day  
 
 All dates will be in `ymd` format
 
