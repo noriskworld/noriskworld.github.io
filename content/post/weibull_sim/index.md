@@ -4,10 +4,6 @@ author: Yunwei Hu
 date: '2023-12-05'
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Problem statement
 
     library(tidyverse)
