@@ -1,6 +1,6 @@
 ---
 title: "Simulation for Weibull Analysis"
-author: admin
+author: Yunwei Hu
 date: "2023-12-05"
 ---
 
