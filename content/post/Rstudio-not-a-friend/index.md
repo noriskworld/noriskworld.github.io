@@ -5,6 +5,12 @@ date: '2023-12-03'
 tags:
 - Markdown
 ---
+## Update on 2023-12-07.
+I was wrong. `Blogdown` is not a friend. However Rstudio is fine. The new kid on the block is [Quarto](https://quarto.org/docs/output-formats/gfm.html). Create a `qmd` document with output format as github flavored markdown. That is it. 
+
+`Quarto` seems like worthy tool to explore more. Please impressive applications from the [gallery](https://quarto.org/docs/gallery/).
+
+---
 
 Well, this is probably obvious.If you've wandered through the HugoBlox documentation, you've likely stumbled upon this cautionary note:
 
